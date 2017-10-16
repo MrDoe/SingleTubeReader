@@ -12,7 +12,7 @@ using DataMatrix.net;
 using System.Drawing.Imaging;
 using System.Threading;
 using System.Reflection;
-
+//testtest
 namespace SingleTubeReader
 {
     public partial class MainForm : Form
