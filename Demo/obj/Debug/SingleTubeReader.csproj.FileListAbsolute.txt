@@ -1,0 +1,37 @@
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\DataMatrix.net.dll
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\Touchless.Vision.dll
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\WebCamLib.dll
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\Touchless.Vision.pdb
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\WebCamLib.pdb
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.csprojResolveAssemblyReference.cache
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.csproj.GenerateResource.Cache
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\SingleTubeReader.exe.config
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\SingleTubeReader.exe.manifest
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\SingleTubeReader.application
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\SingleTubeReader.exe
+E:\SingleTubeReader\csharpWebCam-master\Demo\bin\Debug\SingleTubeReader.pdb
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.MainForm.resources
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.Properties.Resources.resources
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.TrustInfo.xml
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.exe.manifest
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.application
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.exe
+E:\SingleTubeReader\csharpWebCam-master\Demo\obj\Debug\SingleTubeReader.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\SingleTubeReader.exe.config
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\SingleTubeReader.exe.manifest
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\SingleTubeReader.application
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\SingleTubeReader.exe
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\SingleTubeReader.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\Touchless.Vision.dll
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\WebCamLib.dll
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\Touchless.Vision.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\bin\Debug\WebCamLib.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.MainForm.resources
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.Properties.Resources.resources
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.csproj.GenerateResource.Cache
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.TrustInfo.xml
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.exe.manifest
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.application
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.exe
+E:\Visual Studio 2017\Projects\SingleTubeReader\Demo\obj\Debug\SingleTubeReader.pdb

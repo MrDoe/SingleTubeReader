@@ -1,0 +1,13 @@
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\Touchless.Vision.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\Touchless.Vision.pdb
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\Touchless.Vision.dll.CodeAnalysisLog.xml
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\Touchless.Vision.dll.lastcodeanalysissucceeded
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\WebCamLib.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Release\WebCamLib.pdb
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\WebCamWrapper.csprojResolveAssemblyReference.cache
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Camera\Configuration\CameraFrameSourceConfigurationElement.baml
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Camera\Configuration\CameraFrameSourceConfigurationElement.g.cs
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Touchless.Vision_MarkupCompile.cache
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Touchless.Vision.g.resources
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Touchless.Vision.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Release\Touchless.Vision.pdb

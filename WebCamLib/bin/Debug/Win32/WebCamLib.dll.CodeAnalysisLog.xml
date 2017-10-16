@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="e:\visual studio 2017\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamLib\bin\Debug\Win32\WebCamLib.dll">
+   <Modules>
+    <Module Name="webcamlib.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Signieren Sie "'WebCamLib.dll'" mit einem Schlüssel mit starkem Namen.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Fügen Sie "'WebCamLib.dll'" ein AssemblyVersion-Attribut hinzu.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Markieren Sie "'WebCamLib.dll'" mit CLSCompliant(true), da so extern sichtbare Typen verfügbar gemacht werden.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+       <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Weil "'WebCamLib.dll'" extern sichtbare Typen verfügbar macht, markieren Sie es auf der Assemblyebene mit ComVisible(false), und markieren Sie anschließend alle Typen innerhalb der Assembly mit ComVisible(true), die für COM-Clients verfügbar gemacht werden sollen.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="WebCamLib">
+       <Types>
+        <Type Name="CameraControlProperty" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Exposure_lgSec" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="lg" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "lg" im Membernamen "'CameraControlProperty::Exposure_lgSec'" in LG.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Exposure_lgSec'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FocalLength_mm" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "mm" im Membernamen "'CameraControlProperty::FocalLength_mm'" in MM.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::FocalLength_mm'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Iris_10f" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="f" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "f" im Membernamen "'CameraControlProperty::Iris_10f'" in F.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Iris_10f'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Pan_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraControlProperty::Pan_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Pan_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Roll_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraControlProperty::Roll_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Roll_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Tilt_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraControlProperty::Tilt_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Tilt_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Zoom_mm" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "mm" im Membernamen "'CameraControlProperty::Zoom_mm'" in MM.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraControlProperty::Zoom_mm'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CameraInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Name" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Name(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+               <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="57">Die 'CameraInfo::Name::set(String^)'-Methode übergibt "Name cannot be null." als 'paramName'-Argument an einen 'ArgumentNullException'-Konstruktor. Ersetzen Sie dieses Argument durch einen der Parameternamen der Methode. Der angegebene Parametername muss dieselbe Schreibweise aufweisen wie in der Deklaration für die Methode.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CameraMethods" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CaptureSizes" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1259">Verwenden Sie ggf .einen Entwurf, bei dem 'CameraMethods::CaptureSizes' den generischen Typ "'IList&lt;Tuple&lt;int, int, int&gt;^&gt;'" nicht schachtelt.</Issue>
+            </Message>
+            <Message TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="SameType" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1259">Der Eigenschaftenname "'CameraMethods::CaptureSizes'" kann aufgrund des Vorhandenseins der 'CameraMethods::GetCaptureSizes(int, IList&lt;Tuple&lt;int, int, int&gt;^&gt;^)'-Methode zu Verwechslungen führen. Benennen Sie einen dieser Member um, oder entfernen Sie diesen.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CleanupCameraInfo()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1121">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::CleanupCameraInfo(void)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConfigureSampleGrabber(IBaseFilter*)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1139">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::ConfigureSampleGrabber(IBaseFilter*)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DisplayCameraPropertiesDialog(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="&lt;Module&gt;.OleCreatePropertyFrame(HWND__*,System.UInt32,System.UInt32,System.optional(IsConst) Char*,optional(System.Runtime.CompilerServices.IsLong) System.UInt32,IUnknown**,optional(System.Runtime.CompilerServices.IsLong) System.UInt32,_GUID*,optional(System.Runtime.CompilerServices.IsLong) System.UInt32,optional(System.Runtime.CompilerServices.IsLong) System.UInt32,System.Void*)" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="HResultOrErrorCode" Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1074">'CameraMethods::DisplayCameraPropertiesDialog(int)' ruft 'Global::OleCreatePropertyFrame(HWND__*, unsigned int, unsigned int, const wchar_t*, unsigned int, IUnknown**, unsigned int, _GUID*, unsigned int, unsigned int, void*)' auf, verwendet aber HRESULT oder den Fehlercode nicht, die von der Methode zurückgegeben werden. Dies kann bei Fehlerbedingungen oder bei Ressourcenengpässen ein unerwartetes Verhalten zur Folge haben. Verwenden Sie das Ergebnis in einer Bedingungsanweisung, weisen Sie das Ergebnis einer Variablen zu, oder übergeben Sie es als Argument an eine andere Methode.</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Reserved" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1113">'CameraMethods::DisplayCameraPropertiesDialog(int)' erstellt eine Ausnahme vom Typ 'COMException', einem Ausnahmetyp, der von der Laufzeit reserviert ist und nie von verwaltetem Code ausgelöst werden darf. Wenn diese Ausnahmeinstanz ausgelöst werden kann, verwenden Sie einen anderen Ausnahmetyp.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1034">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::DisplayCameraPropertiesDialog(int)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1037">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::DisplayCameraPropertiesDialog(int)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCameraInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="278">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::GetCameraInfo(int)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="281">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::GetCameraInfo(int)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCaptureSizes(System.Int32,System.Collections.Generic.IList`1&lt;System.Tuple`3&lt;System.Int32,System.Int32,System.Int32&gt;&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="Argumente von öffentlichen Methoden validieren" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1170">Überprüfen Sie in der extern sichtbaren Methode "'CameraMethods::GetCaptureSizes(int^, IList&lt;Tuple&lt;int^, int^, int^&gt;^&gt;^)'" den Parameter "sizes" vor der Verwendung.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1170">Verwenden Sie ggf .einen Entwurf, bei dem 'CameraMethods::GetCaptureSizes(int, IList&lt;Tuple&lt;int, int, int&gt;^&gt;^)' den generischen Typ "'IList&lt;Tuple&lt;int, int, int&gt;^&gt;'" nicht schachtelt.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1175">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::GetCaptureSizes(int, IList&lt;Tuple&lt;int, int, int&gt;^&gt;^)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1178">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::GetCaptureSizes(int, IList&lt;Tuple&lt;int, int, int&gt;^&gt;^)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_percentage(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="percentage" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="643">Korrigieren Sie die Schreibweise von "percentage" im Membernamen "'CameraMethods::GetProperty_percentage(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'" in Percentage.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="643">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_percentage(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_percentage(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="percentage" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="635">Korrigieren Sie die Schreibweise von "percentage" im Membernamen "'CameraMethods::GetProperty_percentage(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;, interior_ptr&lt;bool&gt;)'" in Percentage.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="635">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_percentage(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_value(WebCamLib.CameraControlProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="805">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::GetProperty_value(CameraControlProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="805">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_value(CameraControlProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="805">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::GetProperty_value(CameraControlProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="623">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::GetProperty_value(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="623">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_value(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="618">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::GetProperty_value(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="618">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_value(CameraProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetProperty_value(WebCamLib.VideoProcAmpProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="831">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::GetProperty_value(VideoProcAmpProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="831">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::GetProperty_value(VideoProcAmpProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="831">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::GetProperty_value(VideoProcAmpProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPropertyRange(WebCamLib.CameraControlProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="749">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::GetPropertyRange(CameraControlProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetPropertyRange(WebCamLib.VideoProcAmpProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="777">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::GetPropertyRange(VideoProcAmpProperty, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;bool&gt;)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsPropertyMaskEqual(WebCamLib.CameraProperty,WebCamLib.PropertyTypeMask)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="568">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::IsPropertyMaskEqual(CameraProperty, PropertyTypeMask)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsPropertySupported(WebCamLib.CameraControlProperty)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="516">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::IsPropertySupported(CameraControlProperty)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsPropertySupported(WebCamLib.VideoProcAmpProperty)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="537">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::IsPropertySupported(VideoProcAmpProperty)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PropertyHasRange(WebCamLib.CameraProperty)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="906">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::PropertyHasRange(CameraProperty)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RefreshCameraList()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="&lt;Module&gt;.VariantClear(tagVARIANT*)" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="HResultOrErrorCode" Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="254">'CameraMethods::RefreshCameraList(void)' ruft 'Global::VariantClear(tagVARIANT*)' auf, verwendet aber HRESULT oder den Fehlercode nicht, die von der Methode zurückgegeben werden. Dies kann bei Fehlerbedingungen oder bei Ressourcenengpässen ein unerwartetes Verhalten zur Folge haben. Verwenden Sie das Ergebnis in einer Bedingungsanweisung, weisen Sie das Ergebnis einer Variablen zu, oder übergeben Sie es als Argument an eine andere Methode.</Issue>
+            </Message>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Reserved" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="268">'CameraMethods::RefreshCameraList(void)' erstellt eine Ausnahme vom Typ 'COMException', einem Ausnahmetyp, der von der Laufzeit reserviert ist und nie von verwaltetem Code ausgelöst werden darf. Wenn diese Ausnahmeinstanz ausgelöst werden kann, verwenden Sie einen anderen Ausnahmetyp.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetCaptureFormat(IBaseFilter*,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="1271">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::SetCaptureFormat(IBaseFilter*, int, int, int)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_percentage(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="percentage" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="710">Korrigieren Sie die Schreibweise von "percentage" im Membernamen "'CameraMethods::SetProperty_percentage(CameraProperty, int, bool)'" in Percentage.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="710">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_percentage(CameraProperty, int, bool)'".</Issue>
+            </Message>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="727">Die 'CameraMethods::SetProperty_percentage(CameraProperty, int, bool)'-Methode übergibt "Percentage is not valid." als 'paramName'-Argument an einen 'ArgumentOutOfRangeException'-Konstruktor. Ersetzen Sie dieses Argument durch einen der Parameternamen der Methode. Der angegebene Parametername muss dieselbe Schreibweise aufweisen wie in der Deklaration für die Methode.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_percentage(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="percentage" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="705">Korrigieren Sie die Schreibweise von "percentage" im Membernamen "'CameraMethods::SetProperty_percentage(CameraProperty, int, bool, interior_ptr&lt;bool&gt;)'" in Percentage.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="705">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_percentage(CameraProperty, int, bool, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.CameraControlProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="857">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(CameraControlProperty, int, bool)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="857">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(CameraControlProperty, int, bool)'".</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="857">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::SetProperty_value(CameraControlProperty, int, bool)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="678">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="678">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="688">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, bool)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="688">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, bool)'".</Issue>
+            </Message>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="698">Die 'CameraMethods::SetProperty_value(CameraProperty, int, bool, bool)'-Methode übergibt "Property value is outside of its defined range." als 'paramName'-Argument an einen 'ArgumentOutOfRangeException'-Konstruktor. Ersetzen Sie dieses Argument durch einen der Parameternamen der Methode. Der angegebene Parametername muss dieselbe Schreibweise aufweisen wie in der Deklaration für die Methode.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean,System.Boolean,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="683">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, bool, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="683">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, bool, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.CameraProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean,System.Boolean{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="673">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, interior_ptr&lt;bool&gt;)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="673">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(CameraProperty, int, bool, interior_ptr&lt;bool&gt;)'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetProperty_value(WebCamLib.VideoProcAmpProperty,{modopt(System.Runtime.CompilerServices.IsLong)}System.Int32,System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="value" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="879">Korrigieren Sie die Schreibweise von "value" im Membernamen "'CameraMethods::SetProperty_value(VideoProcAmpProperty, int, bool)'" in Value.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="879">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraMethods::SetProperty_value(VideoProcAmpProperty, int, bool)'".</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="879">Der this-Parameter (oder "Me" in Visual Basic) von 'CameraMethods::SetProperty_value(VideoProcAmpProperty, int, bool)' wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#StartCamera(System.Int32,System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;,System.Int32{modopt(System.Runtime.CompilerServices.IsExplicitlyDereferenced)}&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="Warning" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="300">'CameraMethods::StartCamera(int, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;)' weist eine zyklomatische Komplexität von 34 auf. Schreiben Sie die Methode neu, oder gestalten Sie sie um, um die Komplexität auf 25 zu reduzieren.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="302">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::StartCamera(int, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="305">Da das Verhalten von 'int::ToString(void)' basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in 'CameraMethods::StartCamera(int, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;, interior_ptr&lt;int&gt;)' durch einen Aufruf von 'int::ToString(IFormatProvider^)'. Wenn das Ergebnis von 'int::ToString(IFormatProvider^)' dem Benutzer angezeigt wird, geben Sie "'CultureInfo::CurrentCulture'" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "'CultureInfo::InvariantCulture'" an.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnImageCapture" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="First" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.h" Line="171">Deklarieren Sie den ersten Parameter von "'CameraMethods::CaptureCallbackDelegate'" als Objekt mit dem Namen "sender".</Issue>
+             <Issue Name="Second" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.h" Line="171">Deklarieren Sie den zweiten Parameter von "'CameraMethods::CaptureCallbackDelegate'" als EventArgs oder als Instanz eines Typs, durch den EventArgs erweitert wird, mit dem Namen "e".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CameraMethods+CaptureCallbackDelegate" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Schachteln Sie den Typ 'CameraMethods::CaptureCallbackDelegate' nicht. Ändern Sie stattdessen seinen Zugriff so, dass er nicht extern sichtbar ist.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CameraProperty" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+           <Issue Name="NotFlagsNoZeroValue" Certainty="95" Level="CriticalError">Fügen Sie "'CameraProperty'" einen Member hinzu, der den Wert 0 (null) und den vorgeschlagenen Namen "None" aufweist.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Exposure_lgSec" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="lg" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "lg" im Membernamen "'CameraProperty::Exposure_lgSec'" in LG.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Exposure_lgSec'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FocalLength_mm" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "mm" im Membernamen "'CameraProperty::FocalLength_mm'" in MM.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::FocalLength_mm'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Iris_10f" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="f" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "f" im Membernamen "'CameraProperty::Iris_10f'" in F.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Iris_10f'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Pan_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraProperty::Pan_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Pan_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Roll_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraProperty::Roll_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Roll_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Tilt_degrees" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="degrees" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "degrees" im Membernamen "'CameraProperty::Tilt_degrees'" in Degrees.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Tilt_degrees'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Zoom_mm" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Korrigieren Sie die Schreibweise von "mm" im Membernamen "'CameraProperty::Zoom_mm'" in MM.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Entfernen Sie die Unterstriche aus dem Membernamen "'CameraProperty::Zoom_mm'".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CameraPropertyCapabilities" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CameraIndex" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_CameraIndex(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message Id="cameraIndex" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+               <Issue Name="Parameter" Certainty="95" Level="Error" Path="e:\visual studio 2017\projects\singletubereader\webcamlib" File="webcamlib.cpp" Line="78">'cameraIndex', ein in 'CameraPropertyCapabilities::CameraIndex::set(int)' deklarierter Parameter, hat denselben Namen wie ein Instanzenfeld für den Typ. Ändern Sie den Namen eines dieser Elemente.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PropertyTypeMask" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+           <Issue Name="NotFlagsNoZeroValue" Certainty="95" Level="CriticalError">Fügen Sie "'PropertyTypeMask'" einen Member hinzu, der den Wert 0 (null) und den vorgeschlagenen Namen "None" aufweist.</Issue>
+          </Message>
+          <Message TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027" Status="Active" Created="2017-10-16 09:40:32Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">Die einzelnen Member von "'PropertyTypeMask'" stellen möglicherweise kombinierbare Flags und keine einzelnen Werte dar. Markieren Sie in diesem Fall die Enumeration mit FlagsAttribute.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Argumente von öffentlichen Methoden validieren" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Argumente von öffentlichen Methoden validieren</Name>
+   <Description>Alle Verweisargumente, die an extern sichtbare Methoden übergeben werden, müssen mit NULL abgeglichen werden ("Nothing" in VB). Lösen Sie ggf. eine System.ArgumentNullException aus, wenn das Argument NULL ist.</Description>
+   <Resolution Name="Default">Überprüfen Sie in der extern sichtbaren Methode "{0}" den Parameter "{1}" vor der Verwendung.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblys müssen gültige starke Namen aufweisen</Name>
+   <Description>Entweder verfügt die Assembly nicht über einen starken Namen, über einen ungültigen Namen, oder der starke Name ist nur aufgrund der Computerkonfiguration gültig. In diesem Zustand sollte die Assembly nicht bereitgestellt werden. Die häufigsten Ursachen hierfür sind: 1) Der Inhalt der Assembly wurde nach der Signierung geändert. 2) Bei der Signierung ist ein Fehler aufgetreten. 3) Die Assembly wurde verzögert signiert. 4) Es war ein Registrierungsschlüssel vorhanden, der eine erfolgreiche Überprüfung ermöglichte, die andernfalls nicht möglich gewesen wäre.</Description>
+   <Resolution Name="NoStrongName">Signieren Sie "{0}" mit einem Schlüssel mit starkem Namen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502">
+   <Name>Übermäßige Komplexität vermeiden</Name>
+   <Description>Methodenimplementierungen, die übermäßig komplex sind, erhöhen die Herausforderung, Code zu verstehen und zu warten.</Description>
+   <Resolution Name="Default">{0} weist eine zyklomatische Komplexität von {1} auf. Schreiben Sie die Methode neu, oder gestalten Sie sie um, um die Komplexität auf {2} zu reduzieren.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182212.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>Ereignishandler korrekt deklarieren</Name>
+   <Description>Gemäß der Konvention weisen .NET-Ereignisse zwei Parameter auf, die den Absender des Ereignisses und die Ereignisdaten angeben. Ereignishandlersignaturen sollten folgendes Format aufweisen: void MyEventHandler(object sender, EventArgs e). Der sender-Parameter weist immer den Typ "System.Object" auf, selbst wenn ein spezifischerer Typ verwendet werden kann. Der e-Parameter weist immer den Typ "System.EventArgs" auf. Ereignisse, die keine Ereignisdaten bereitstellen, sollten den Delegattypen "System.EventHandler" verwenden. Ereignishandler geben "void" zurück, damit jedes Ereignis an mehrere Zielmethoden gesendet werden kann. Alle von einem Ziel zurückgegebenen Werte würden nach dem ersten Aufruf verloren gehen.</Description>
+   <Resolution Name="First">Deklarieren Sie den ersten Parameter von "{0}" als Objekt mit dem Namen "sender".</Resolution>
+   <Resolution Name="Second">Deklarieren Sie den zweiten Parameter von "{0}" als EventArgs oder als Instanz eines Typs, durch den EventArgs erweitert wird, mit dem Namen "e".</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182133.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806">
+   <Name>Methodenergebnisse nicht ignorieren</Name>
+   <Description>Das Ergebnis von Methoden, die neue Instanzen von Zeichenfolgen zurückgeben, sollte einer Variablen zugewiesen und anschließend verwendet werden. Wenn das Ergebnis einer Methode, die ein neues Objekt erstellt, z.B. String.ToLower(), keiner Variablen zugewiesen wird, geht der Aufruf verloren.</Description>
+   <Resolution Name="HResultOrErrorCode">{0} ruft {1} auf, verwendet aber HRESULT oder den Fehlercode nicht, die von der Methode zurückgegeben werden. Dies kann bei Fehlerbedingungen oder bei Ressourcenengpässen ein unerwartetes Verhalten zur Folge haben. Verwenden Sie das Ergebnis in einer Bedingungsanweisung, weisen Sie das Ergebnis einer Variablen zu, oder übergeben Sie es als Argument an eine andere Methode.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182273.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006">
+   <Name>Generische Typen in Membersignaturen nicht schachteln</Name>
+   <Description>Verwenden Sie keine API, die eine Instanziierung eines generischen Typs mit einem weiteren generischen Typ als Typargument erfordert. Dies hat eine übermäßig komplexe Syntax zur Folge.</Description>
+   <Resolution Name="Default">Verwenden Sie ggf .einen Entwurf, bei dem {0} den generischen Typ "{1}" nicht schachtelt.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182144.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>Keine reservierten Ausnahmetypen auslösen</Name>
+   <Description>Benutzercode sollte keine Ausnahmen von bestimmten Typen erstellen und auslösen, die von der Laufzeit reserviert sind oder von einem zu allgemeinen Ausnahmetyp sind. Zu den Ausnahmetypen, die zu allgemein sind, gehören Exception, SystemException und ApplicationException. Zu den Ausnahmetypen, die von der Laufzeit reserviert sind, gehören ThreadAbortException, OutOfMemoryException, ExecutionEngineException und IndexOutOfRangeException.</Description>
+   <Resolution Name="Reserved">{0} erstellt eine Ausnahme vom Typ {1}, einem Ausnahmetyp, der von der Laufzeit reserviert ist und nie von verwaltetem Code ausgelöst werden darf. Wenn diese Ausnahmeinstanz ausgelöst werden kann, verwenden Sie einen anderen Ausnahmetyp.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182338.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008">
+   <Name>Enumerationen müssen einen Wert von 0 (null) aufweisen</Name>
+   <Description>Eine Enumeration muss einen Wert von 0 (null) aufweisen. Wenn die Enumeration durch das Flags-Attribut ergänzt wird, muss sie einen Member mit einem Wert von 0 (null) aufweisen, der den leeren Zustand angibt. Optional kann dieser Wert den Namen "None" haben. Bei einer Enumeration mit Flags-Attribut ist ein Member mit dem Wert 0 (null) optional. Falls es vorhanden ist, sollte es immer den Namen "None" haben. Dieser Wert weist darauf hin, dass in der Enumeration keine Werte festgelegt wurden. Die Verwendung eines Members mit dem Wert 0 (null) für andere Zwecke widerspricht der Verwendung des Flags-Attributs dahingehend, dass die Operatoren AND und OR für den Member nutzlos sind.</Description>
+   <Resolution Name="NotFlagsNoZeroValue">Fügen Sie "{0}" einen Member hinzu, der den Wert 0 (null) und den vorgeschlagenen Namen "None" aufweist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182149.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Bei Bezeichnern sollte die Groß-/Kleinschreibung beachtet werden</Name>
+   <Description>Bei Typ-, Namespace- und Memberbezeichnern wird die Pascal-Schreibweise verwendet. Bei Parameterbezeichnern wird eine Höckerschreibweise verwendet. Zweibuchstabige Akronyme in solchen Bezeichner müssen in Großbuchstaben stehen, z. B. System.IO statt System.Io. Für Akronyme mit mindestens drei Buchstaben muss die Pascal-Schreibweise verwendet werden, z. B. System.Xml statt System.XML. Bei der Pascal-Schreibweise wird der erste Buchstabe eines jeden Worts groß geschrieben, wie z. B. in BackColor. Bei der Höckerschreibweise wird der erste Buchstabe des ersten Worts klein und der erste Buchstabe aller darauf folgenden Wörter groß geschrieben, z. B. in backgroundColor. Auch wenn es möglicherweise gebräuchlich ist, Akronyme mit zwei Buchstaben nicht vollständig groß zu schreiben, sollten Verletzungen dieser Regel nicht aus diesem Grund ausgenommen werden. DbConnection beispielsweise ist gebräuchlich, aber falsch, verwenden Sie DBConnection. Eine Verletzung dieser Regel ist möglicherweise erforderlich, um die Kompatibilität mit vorhandenen, nicht verwalteten Symbolschemas zu gewährleisten. Im Allgemeinen sollten diese Symbole jedoch nicht außerhalb der Assembly, die sie verwendet, sichtbar sein.</Description>
+   <Resolution Name="Member">Korrigieren Sie die Schreibweise von "{0}" im Membernamen "{1}" in {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Bezeichner sollten keine Unterstriche enthalten</Name>
+   <Description>Verwenden Sie keine Unterstriche bei der Angabe von Bezeichnern. Manche generierten Visual Studio-Bezeichner für Anwendungen enthalten Unterstriche. Unterstriche sollten in öffentlichen Bezeichnern generell vermieden werden.</Description>
+   <Resolution Name="Member">Entfernen Sie die Unterstriche aus dem Membernamen "{0}".</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182245.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>Argumentausnahmen korrekt instanziieren</Name>
+   <Description>Zeichenfolgenargumente, die an Konstruktoren von ArgumentException und deren abgeleiteten Typen übergeben wurden, müssen korrekt sein. Von ArgumentException abgeleitete Typen haben inkonsistente Konstruktorüberladungen in Bezug auf die message- und paramName-Parameter im Vergleich zu ArgumentException.</Description>
+   <Resolution Name="IncorrectParameterName">Die {0}-Methode übergibt "{1}" als {2}-Argument an einen {3}-Konstruktor. Ersetzen Sie dieses Argument durch einen der Parameternamen der Methode. Der angegebene Parametername muss dieselbe Schreibweise aufweisen wie in der Deklaration für die Methode.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182347.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016">
+   <Name>Assemblys mit AssemblyVersionAttribute markieren</Name>
+   <Description>Assemblys müssen Versionsnummern verwenden. Die Versionsnummer ist Bestandteil der Identität einer Assembly. Die Versionszuweisung erfolgt über das AssemblyVersion-Attribut.</Description>
+   <Resolution Name="Default">Fügen Sie "{0}" ein AssemblyVersion-Attribut hinzu.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182155.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Assemblys mit CLSCompliantAttribute markieren</Name>
+   <Description>Bei Assemblys muss die CLS-Kompatibilität mithilfe des CLSCompliant-Atttributs explizit angegeben werden. Eine Assembly ohne dieses Attribut ist nicht CLS-kompatibel. Assemblys, Module und Typen können selbst dann CLS-kompatibel sein, wenn einige Komponenten der Assembly, des Moduls oder des Typs nicht CLS-kompatibel sind. Es gelten die folgenden Regeln: 1. Wenn das Element als CLSCompliant markiert ist, müssen alle nicht kompatiblen Member das CLSCompliant-Attribut aufweisen, und das Argument muss auf "False" festgelegt sein. 2. Ein vergleichbarer alternativer CLS-kompatibler Member muss für jeden nicht CLS-kompatiblen Member zur Verfügung gestellt werden.</Description>
+   <Resolution Name="Default">Markieren Sie "{0}" mit CLSCompliant(true), da so extern sichtbare Typen verfügbar gemacht werden.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017">
+   <Name>Assemblys mit ComVisibleAttribute markieren</Name>
+   <Description>Das System.Runtime.InteropServices.ComVisible-Attribut gibt an, ob COM-Clients die Bibliothek verwenden können. Ein guter Entwurf schreibt vor, dass die Entwickler explizit auf die COM-Sichtbarkeit hinweisen. Der Standardwert für dieses Attribut ist "True". Die beste Vorgehensweise besteht jedoch darin, die Assembly mit "ComVisible false" zu markieren und anschließend Typen, Schnittstellen und einzelne Member ggf. als "ComVisible true" zu markieren.</Description>
+   <Resolution Name="NoAttribute">Weil "{0}" extern sichtbare Typen verfügbar macht, markieren Sie es auf der Assemblyebene mit ComVisible(false), und markieren Sie anschließend alle Typen innerhalb der Assembly mit ComVisible(true), die für COM-Clients verfügbar gemacht werden sollen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182157.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError, Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027">
+   <Name>Enumerationen mit FlagsAttribute markieren</Name>
+   <Description>Die Enumeration besteht möglicherweise aus kombinierbaren Flags. Wenden Sie in diesem Fall das Flags-Attribut auf die Enumeration an.</Description>
+   <Resolution Name="Default">Die einzelnen Member von "{0}" stellen möglicherweise kombinierbare Flags und keine einzelnen Werte dar. Markieren Sie in diesem Fall die Enumeration mit FlagsAttribute.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182159.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Member als statisch markieren</Name>
+   <Description>Methoden, die nicht auf Instanzdaten zugreifen oder keine Instanzmethoden aufrufen, können als statisch markiert werden (Shared in Visual Basic). Danach gibt der Compiler nicht virtuelle Aufrufsites an diese Member aus, wodurch eine Laufzeitüberprüfung aller Aufrufe verhindert wird, die sicherstellt, dass der aktuelle Objektzeiger ungleich NULL ist. Dies kann zu einer messbaren Leistungssteigerung für leistungsabhängigen Code führen. In manchen Fällen stellt es ein Problem mit der Richtigkeit dar, wenn nicht auf die aktuelle Objektinstanz zugegriffen werden kann.</Description>
+   <Resolution Name="Default">Der this-Parameter (oder "Me" in Visual Basic) von {0} wird nie verwendet. Markieren Sie den Member als statisch (oder "Shared" in Visual Basic), oder verwenden Sie "this"/"Me" im Methodentext oder ggf. mindestens einen Eigenschaftenaccessor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+   <Name>Geschachtelte Typen sollten nicht sichtbar sein</Name>
+   <Description>Verwenden Sie für die Gruppierung von Typen keine geschachtelten Typen, die als "public", "protected" oder "protected internal" ("Protected Friend") deklariert sind. Verwenden Sie für diesen Zweck Namespaces. Es gibt nur wenige Szenarios, in denen geschachtelte Typen empfehlenswert sind. Außerdem sind die Zugriffsmöglichkeiten für geschachtelte Typmember für einige Zielgruppen nur schwer verständlich. Enumeratoren sind von dieser Regel ausgenommen.</Description>
+   <Resolution Name="Default">Schachteln Sie den Typ {0} nicht. Ändern Sie stattdessen seinen Zugriff so, dass er nicht extern sichtbar ist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182162.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721">
+   <Name>Eigenschaftennamen sollten nicht mit Get-Methoden übereinstimmen</Name>
+   <Description>Es wurde eine Get-Methode mit demselben Namen wie eine Eigenschaft gefunden. Get-Methoden und -Eigenschaften sollten Namen aufweisen, die ihre Funktionen deutlich erkennbar machen. Informationen über die Vorrangstellung von Eigenschaften gegenüber Methoden finden Sie in den Entwurfsrichtlinien.</Description>
+   <Resolution Name="SameType">Der Eigenschaftenname "{0}" kann aufgrund des Vorhandenseins der {1}-Methode zu Verwechslungen führen. Benennen Sie einen dieser Member um, oder entfernen Sie diesen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182253.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>IFormatProvider angeben</Name>
+   <Description>Wenn eine Überladung vorhanden ist, die IFormatProvider als Argument verwendet, sollte diese bevorzugt anstelle einer Überladung aufgerufen werden, bei der dies nicht der Fall ist. Einige Methoden in der Laufzeit konvertieren einen Wert in eine oder aus einer Zeichenfolgendarstellung und akzeptieren einen Zeichenfolgenparameter mit einem oder mehreren Zeichen, die Formatbezeichner genannt werden und die Art der Konvertierung des Werts angeben. Wenn die Bedeutung des Formatbezeichners je nach Kultur variiert, werden die tatsächlich in der Zeichenfolgendarstellung verwendeten Zeichen von einem Formatierungsobjekt bereitgestellt. In Szenarien, in denen das Sortierungs- und Vergleichsverhalten bei verschiedenen Kulturen nicht variieren darf, geben Sie CultureInfo.InvariantCulture an, und anderenfalls geben Sie CultureInfo.CurrentCulture an.</Description>
+   <Resolution Name="IFormatProviderAlternateString">Da das Verhalten von {0} basierend auf den aktuellen Gebietsschemaeinstellungen des Benutzers variieren könnte, ersetzen Sie diesen Aufruf in {1} durch einen Aufruf von {2}. Wenn das Ergebnis von {2} dem Benutzer angezeigt wird, geben Sie "{3}" als IFormatProvider-Parameter an. Wenn das Ergebnis gespeichert wird und die Software darauf zugreift, z.B. wenn es auf einem Datenträger oder in einer Datenbank gespeichert wird, geben Sie "{4}" an.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500">
+   <Name>Variablennamen sollten nicht mit Feldnamen übereinstimmen</Name>
+   <Description>Namen von Instanzfeldern und Variablen sollten innerhalb desselben Bereichs nicht identisch sein.</Description>
+   <Resolution Name="Parameter">{0}, ein in {1} deklarierter Parameter, hat denselben Namen wie ein Instanzenfeld für den Typ. Ändern Sie den Namen eines dieser Elemente.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182216.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

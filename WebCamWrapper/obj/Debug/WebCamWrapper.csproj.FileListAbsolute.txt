@@ -1,0 +1,26 @@
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\WebCamWrapper.csprojResolveAssemblyReference.cache
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Camera\Configuration\CameraFrameSourceConfigurationElement.baml
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Camera\Configuration\CameraFrameSourceConfigurationElement.g.cs
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Touchless.Vision_MarkupCompile.cache
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Touchless.Vision.g.resources
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\Touchless.Vision.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\Touchless.Vision.pdb
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\Touchless.Vision.dll.CodeAnalysisLog.xml
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\Touchless.Vision.dll.lastcodeanalysissucceeded
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\WebCamLib.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\bin\Debug\WebCamLib.pdb
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Touchless.Vision.dll
+E:\SingleTubeReader\csharpWebCam-master\WebCamWrapper\obj\Debug\Touchless.Vision.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\Touchless.Vision.dll
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\Touchless.Vision.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\Touchless.Vision.dll.CodeAnalysisLog.xml
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\Touchless.Vision.dll.lastcodeanalysissucceeded
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\WebCamLib.dll
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\bin\Debug\WebCamLib.pdb
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\WebCamWrapper.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Camera\Configuration\CameraFrameSourceConfigurationElement.baml
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Camera\Configuration\CameraFrameSourceConfigurationElement.g.cs
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Touchless.Vision_MarkupCompile.cache
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Touchless.Vision.g.resources
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Touchless.Vision.dll
+E:\Visual Studio 2017\Projects\SingleTubeReader\WebCamWrapper\obj\Debug\Touchless.Vision.pdb
